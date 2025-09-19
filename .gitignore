@@ -1,0 +1,29 @@
+# Python / env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Data / artifacts (adjust as needed)
+data/
+artifacts/
+checkpoints/
+*.csv
+*.parquet
+*.h5
+*.npz
+
+# ML weights (consider Git LFS instead)
+*.pt
+*.pth
+*.onnx
+*.bin
